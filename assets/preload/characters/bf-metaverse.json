@@ -14,30 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				12,
-				-6
-			],
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "BF NOTE LEFT0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-10,
-				-50
-			],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "BF NOTE DOWN0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-29,
-				27
+				-56,
+				0
 			],
 			"anim": "singUP",
 			"fps": 24,
@@ -47,8 +25,30 @@
 		{
 			"loop": false,
 			"offsets": [
-				-38,
-				-7
+				-55,
+				-22
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF NOTE DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-16
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF NOTE LEFT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-68,
+				-4
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -58,30 +58,19 @@
 		{
 			"loop": false,
 			"offsets": [
-				12,
-				24
+				-14,
+				13
 			],
-			"anim": "singLEFTmiss",
+			"anim": "hey",
 			"fps": 24,
-			"name": "BF NOTE LEFT MISS",
+			"name": "BF HEY!!",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-11,
-				-19
-			],
-			"anim": "singDOWNmiss",
-			"fps": 24,
-			"name": "BF NOTE DOWN MISS",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-29,
-				27
+				-56,
+				10
 			],
 			"anim": "singUPmiss",
 			"fps": 24,
@@ -91,8 +80,30 @@
 		{
 			"loop": false,
 			"offsets": [
-				-30,
-				21
+				-51,
+				-20
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF NOTE DOWN MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				31,
+				-15
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "BF NOTE LEFT MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-69,
+				2
 			],
 			"anim": "singRIGHTmiss",
 			"fps": 24,
@@ -100,104 +111,79 @@
 			"indices": []
 		},
 		{
-			"loop": true,
+			"loop": false,
 			"offsets": [
-				0,
-				0
+				-2,
+				20
 			],
-			"anim": "idle-loop",
+			"anim": "firstDeath",
 			"fps": 24,
-			"name": "BF idle dance",
-			"indices": [
-				10,
-				11,
-				12,
-				13
-			]
+			"name": "BF dies",
+			"indices": []
 		},
 		{
 			"loop": true,
 			"offsets": [
-				12,
-				-6
+				-2,
+				20
 			],
-			"anim": "singLEFT-loop",
+			"anim": "deathLoop",
 			"fps": 24,
-			"name": "BF NOTE LEFT0",
-			"indices": [
-				12,
-				13,
-				14,
-				15
-			]
+			"name": "BF Dead Loop",
+			"indices": []
 		},
 		{
-			"loop": true,
+			"loop": false,
 			"offsets": [
-				-38,
-				-7
-			],
-			"anim": "singRIGHT-loop",
-			"fps": 24,
-			"name": "BF NOTE RIGHT0",
-			"indices": [
-				58,
-				59,
-				60,
-				61
-			]
-		},
-		{
-			"loop": true,
-			"offsets": [
-				-29,
-				27
-			],
-			"anim": "singUP-loop",
-			"fps": 24,
-			"name": "BF NOTE UP0",
-			"indices": [
-				11,
-				12,
-				13,
-				14
-			]
-		},
-		{
-			"loop": true,
-			"offsets": [
-				-10,
-				-50
-			],
-			"anim": "singDOWN-loop",
-			"fps": 24,
-			"name": "BF NOTE DOWN0",
-			"indices": [
-				26,
-				27,
-				28,
+				-2,
 				29
-			]
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "BF Dead confirm",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				-1,
-				1
+				72,
+				57
 			],
-			"indices": [],
+			"anim": "counter",
 			"fps": 24,
-			"anim": "scared",
-			"loop": true,
-			"name": "BF idle shaking"
+			"name": "down b",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				126,
+				87
+			],
+			"anim": "reflect",
+			"fps": 24,
+			"name": "bf reflect",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				11
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "BF hit",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/bfCar",
+	"image": "characters/bf-metaverse",
 	"position": [
-		0,
-		350
+		-25,
+		315
 	],
-	"healthicon": "bf",
+	"healthicon": "bf-metaverse",
 	"flip_x": true,
 	"healthbar_colors": [
 		49,
@@ -208,6 +194,6 @@
 		0,
 		0
 	],
-	"sing_duration": 4,
+	"sing_duration": 6.1,
 	"scale": 1
 }
